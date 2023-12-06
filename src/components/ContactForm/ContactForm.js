@@ -63,12 +63,7 @@ export const ContactForm = () => {
             name="number"
             component="span"
           ></ErrorMessageStyled>
-          <SubmitButtonStyled
-            type="submit"
-            // onSubmit={() => dispatch(addContact())}
-          >
-            Add contact
-          </SubmitButtonStyled>
+          <SubmitButtonStyled type="submit">Add contact</SubmitButtonStyled>
         </FormStyled>
       </Formik>
     </div>

@@ -1,6 +1,3 @@
-// import { createSlice } from '@reduxjs/toolkit';
-// import { persistReducer } from 'redux-persist';
-
 import { createSlice } from '@reduxjs/toolkit';
 import { initialContacts } from 'components/initialContacts';
 
