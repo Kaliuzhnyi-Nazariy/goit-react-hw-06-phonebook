@@ -33,19 +33,4 @@ export const ContactList = () => {
       ))}
     </ContactListStyled>
   );
-
-  // return (
-  //   <ContactListStyled>
-  //     {items.map(item => (
-  //       <ContactItem key={item.id}>
-  //         <ConstactItem>
-  //           {item.name}: {item.number}
-  //         </ConstactItem>
-  //         <DeleteButton type="button" onClick={() => deleteContact(item.id)}>
-  //           Delete
-  //         </DeleteButton>
-  //       </ContactItem>
-  //     ))}
-  //   </ContactListStyled>
-  // );
 };
